@@ -1,0 +1,14 @@
+# Install GDU - Disk Usage Analyzer
+add-apt-repository ppa:daniel-milde/gdu
+apt-get update
+apt-get install gdu
+
+# Install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install fzf
+brew install fzf
+# Key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
+
+
