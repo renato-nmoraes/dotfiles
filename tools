@@ -11,4 +11,6 @@ brew install fzf
 # Key bindings and fuzzy completion:
 $(brew --prefix)/opt/fzf/install
 
-
+#energy management
+apt install tlp tlp-rdw #https://linrunner.de/tlp/installation/debian.html
+flatpak install tlpui

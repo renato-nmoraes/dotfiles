@@ -7,3 +7,11 @@ rsync -avuP /home/renato/.bash_aliases ${script_parent}/.bash_aliases
 rsync -avuP /home/renato/.vimrc ${script_parent}/.vimrc
 code --list-extensions > ${script_parent}/.vscode-extensions
 rsync -avuP /home/renato/.vscode/renato.code-profile ${script_parent}/renato.code-profile
+#if [[ -f ${script_parent}/transfuse.sh ]]; then
+#	${script_parent}/transfuse.sh -b $(whoami)
+#else
+#	curl https://gitlab.com/cscs/transfuse/-/raw/master/transfuse.sh --output ${script_parent}/transfuse.sh
+#	chmod +x ${script_parent}/transfuse.sh
+#	${script_parent}/transfuse.sh -b $(whoami)
+#fi
+rsync -avuP --filter="merge .rsync-filter" /home/renato/.config/* ${script_parent}/.config
