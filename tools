@@ -1,7 +1,7 @@
 # Install GDU - Disk Usage Analyzer
-add-apt-repository ppa:daniel-milde/gdu
-apt-get update
-apt-get install gdu
+sudo add-apt-repository ppa:daniel-milde/gdu
+sudo apt-get update
+sudo apt-get install gdu
 
 # Install HomeBrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -12,5 +12,30 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 
 #energy management
-apt install tlp tlp-rdw #https://linrunner.de/tlp/installation/debian.html
+sudo apt install tlp tlp-rdw #https://linrunner.de/tlp/installation/debian.html
 flatpak install tlpui
+
+# NVIM
+brew install neovim
+
+# ArgoCD
+brew install argocd
+
+# GitHub CLI
+brew install gh
+
+# OpenSSL
+sudo apt install openssl
+
+# Flatpak
+## Brave
+com.brave.Browser
+## MQTTX
+com.emqx.MQTTX
+## OBS
+#com.obsproject.Studio
+## Telegram
+org.telegram.desktop
+
+# Screen Recorder
+sudo apt-get install kazam
