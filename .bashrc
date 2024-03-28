@@ -150,3 +150,4 @@ __bash_prompt
 export PROMPT_DIRTRIM=4
 export ANSIBLE_STDOUT_CALLBACK=default
 export ANSIBLE_DISPLAY_SKIPPED_HOSTS=False
+export PROMPT_COMMAND='history -a'

@@ -1,0 +1,30 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10eceac861000171076909100000025890004
+clientId2=10eceac861000171137269600000025680006
+clientId3=10eceac861000171099281600000025890062
+clientId4=10eceac861000171148411300000025680036
+count=4
+discardCommand3[$e]=rm,$HOME/.config/session/konsole_10eceac861000171099281600000025890062_1711503087_722609
+discardCommand4[$e]=rm,$HOME/.config/session/systemsettings_10eceac861000171148411300000025680036_1711503087_722469
+program1=/usr/bin/kalendarac
+program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program3=/usr/bin/konsole
+program4=/usr/bin/systemsettings5
+restartCommand1=/usr/bin/kalendarac,-session,10eceac861000171076909100000025890004_1711503087_722700
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,10eceac861000171137269600000025680006_1711503087_722458
+restartCommand3=/usr/bin/konsole,-session,10eceac861000171099281600000025890062_1711503087_722609
+restartCommand4=/usr/bin/systemsettings5,-session,10eceac861000171148411300000025680036_1711503087_722469,-name,systemsettings5
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=renato
+userId2=renato
+userId3=renato
+userId4=renato

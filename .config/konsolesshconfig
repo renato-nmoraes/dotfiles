@@ -1,0 +1,22 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][cloudflared-stg]
+hostname=10.60.10.1
+identifier=cloudflared-stg
+importedFromSshConfig=false
+port=22
+profileName=Don't Change
+sshkey=/home/renato/.ssh/id_ed25519
+useSshConfig=false
+username=renato_moraes_botafogotech_com_b
+
+[SSH Config][clovis-temp-hml]
+hostname=10.90.10.2
+identifier=clovis-temp-hml
+importedFromSshConfig=false
+port=22
+profileName=Don't Change
+sshkey=/home/renato/.ssh/id_ed25519
+useSshConfig=false
+username=renato_moraes_botafogotech_com_b

@@ -1,0 +1,19 @@
+[MainWindow]
+1920x1080 screen: XPosition=450
+1920x1080 screen: YPosition=178
+1920x1200 screen: Height=1132
+1920x1200 screen: Width=1920
+1920x1200 screen: XPosition=0
+1920x1200 screen: YPosition=24
+2 screens: Window-Maximized=true
+2 screens: XPosition=0
+2 screens: YPosition=0
+2560x1440 screen: XPosition=770
+2560x1440 screen: YPosition=358
+DP-1=DP-1
+DP-1 HDMI-1=DP-1
+HDMI-1=HDMI-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAARsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1

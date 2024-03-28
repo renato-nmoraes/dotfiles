@@ -7,6 +7,7 @@ sudo apt-get install gdu
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install fzf
+sudo apt-get install silversearcher-ag
 brew install fzf
 # Key bindings and fuzzy completion:
 $(brew --prefix)/opt/fzf/install
@@ -17,6 +18,8 @@ flatpak install tlpui
 
 # NVIM
 brew install neovim
+## EFM Language Server
+brew install efm-langserver
 
 # ArgoCD
 brew install argocd

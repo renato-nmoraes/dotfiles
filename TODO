@@ -1,1 +1,11 @@
 Install NVIM - https://neovim.io/doc/user/nvim.html#nvim-from-vim
+
+# Install Plug
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# TODO: Separate configuration
+# https://vimways.org/2018/from-vimrc-to-vim/
+# https://neovim.io/doc/user/nvim.html
+# Repositorio legal de referencia: https://github.com/tomaskallup/dotfiles/blob/master/nvim/init.vim (olhar especialmente o install dele)
+# Estudar o que é lazy spec

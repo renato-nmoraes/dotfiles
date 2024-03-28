@@ -1,0 +1,65 @@
+1920x1080 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAFyAAADqPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAABMAAADqAAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAEwAAAOoAAABFQEAAAMAAAeAAAADqAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOj/////AAAAAAAAAAA=
+
+[FileDialogSize]
+2 screens: Height=600
+2 screens: Width=980
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=id_ed25519,file:$HOME/.ssh/id_ed25519
+Recent URLs[$e]=file:$HOME/.ssh/,file:$HOME/Documentos/
+detailViewIconSize=16
+
+[MainWindow]
+1280x1024 screen: Window-Maximized=true
+1280x800 screen: Window-Maximized=true
+1680x1050 screen: Window-Maximized=true
+1920x1080 screen: Height=1012
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=24
+1920x1200 screen: Height=572
+1920x1200 screen: Width=1912
+1920x1200 screen: Window-Maximized=true
+1920x1200 screen: XPosition=4
+1920x1200 screen: YPosition=24
+2 screens: Height=1012
+2 screens: Width=1920
+2 screens: Window-Maximized=true
+2 screens: XPosition=2560
+2 screens: YPosition=384
+2048x1080 screen: Window-Maximized=true
+2560x1440 screen: Height=1416
+2560x1440 screen: Width=2560
+2560x1440 screen: Window-Maximized=true
+2560x1440 screen: XPosition=0
+2560x1440 screen: YPosition=24
+3 screens: Height=1012
+3 screens: Width=1920
+3 screens: XPosition=2325
+3 screens: YPosition=380
+960x600 screen: Window-Maximized=true
+:0.0=:0.0
+DP-1=DP-1
+DP-1 HDMI-1=HDMI-1
+DP-1 eDP-1=DP-1
+DP-1-1 DP-1-2=DP-1-1
+DP-1-1-1=DP-1-1-1
+DP-1-1-1 DP-1-2-1=DP-1-1-1
+DP-1-1-1 DP-1-2-1 HDMI-1=DP-1-1-1
+DP-1-1-1 DP-1-2-1 eDP-1=DP-1-1-1
+DP-1-1-1 eDP-1=DP-1-1-1
+DP-1-2-1 eDP-1=DP-1-2-1
+HDMI-1=HDMI-1
+HDMI-1 eDP-1=eDP-1
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAD2AAADqPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAABMAAABfAAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAQAAAEwAAAOoAAABFQEAAAMAAAaJAAADqAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOj/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[UiSettings]
+ColorScheme=

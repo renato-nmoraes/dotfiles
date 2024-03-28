@@ -1,0 +1,103 @@
+k9s:
+  liveViewAutoRefresh: false
+  refreshRate: 2
+  maxConnRetry: 5
+  enableMouse: false
+  enableImageScan: false
+  headless: false
+  logoless: false
+  crumbsless: false
+  readOnly: false
+  noExitOnCtrlC: false
+  noIcons: false
+  shellPod:
+    image: busybox:1.35.0
+    namespace: default
+    limits:
+      cpu: 100m
+      memory: 100Mi
+  skipLatestRevCheck: false
+  logger:
+    tail: 100
+    buffer: 5000
+    sinceSeconds: 300
+    fullScreenLogs: false
+    textWrap: false
+    showTime: false
+  currentContext: gke_dev-cartesian_us-central1_gke-dev
+  currentCluster: gke_dev-cartesian_us-central1_gke-dev
+  keepMissingClusters: false
+  clusters:
+    gke_dev-cartesian_us-central1_gke-dev:
+      namespace:
+        active: wiki
+        lockFavorites: false
+        favorites:
+        - bluedeck-v1
+        - argocd
+        - bluedeck-datacentral
+        - default
+      view:
+        active: ns
+      featureGates:
+        nodeShell: false
+      portForwardAddress: localhost
+    gke_internal-stoic_us-central1_gke-internal:
+      namespace:
+        active: wiki
+        lockFavorites: false
+        favorites:
+        - wiki
+        - glpi-prod
+        - glpi
+        - bluedeck-restore-teste
+        - argocd
+        - vault
+        - authentik
+        - bluedeck-teste-probe
+        - all
+      view:
+        active: pod
+      featureGates:
+        nodeShell: false
+      portForwardAddress: localhost
+    gke_prod-utilitarian_us-central1_gke-prod:
+      namespace:
+        active: bluedeck-datacentral
+        lockFavorites: false
+        favorites:
+        - argocd
+        - loki
+        - monitoring
+        - bluedeck-datacentral
+        - all
+        - bluedeck-atlas
+        - bluedeck-demo
+        - default
+      view:
+        active: pods
+      featureGates:
+        nodeShell: false
+      portForwardAddress: localhost
+    gke_stg-skeptic_us-central1_gke-stg:
+      namespace:
+        active: bluedeck-atlas
+        lockFavorites: false
+        favorites:
+        - argocd
+        - bluedeck-atlas
+        - default
+      view:
+        active: pod
+      featureGates:
+        nodeShell: false
+      portForwardAddress: localhost
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+  screenDumpDir: /tmp/k9s-screens-renato
+  disablePodCounting: false

@@ -1,0 +1,12 @@
+[FileDialogSize]
+1920x1080 screen: Height=600
+1920x1080 screen: Width=980
+2 screens: Height=480
+2 screens: Width=640
+3 screens: Height=480
+3 screens: Width=640
+
+[KFileDialog Settings]
+Recent Files[$e]=steam_latest.deb,file:$HOME/Downloads/Comprovante Residencia.pdf,file:///tmp/glpi-logs.zip,file:$HOME/Downloads/flows-recovery-email-verification-408d6afeff2fbf276bf43a949e332ef6 (1).yaml,file:$HOME/Downloads/travel_insurance_Moraes_06624821663.pdf,file:$HOME/Downloads/PKI_CAPSIGMA_120481_372024.zip,file:$HOME/Downloads/image (15).png,file:$HOME/Downloads/2c1124b1caf9f391c57c13ecfceebefe0629770126c19303909b87f72ca02a32,file:$HOME/Downloads/17347_rev7.json,file:$HOME/Downloads/Comprovante.pdf,file:///1.git-repos/helm-chart/deploy/docs/instrucoes-login.pdf,file:$HOME/Downloads/BancoBlueDeck_CapSigma_20240302.zip
+Recent URLs[$e]=file:///tmp/,file:///,file:$HOME/Vídeos/,file:$HOME/,file:///1.git-repos/helm-chart/,file:///1.git-repos/helm-chart/deploy/,file:///1.git-repos/clovis/,file:$HOME/Downloads/,file:$HOME/Documentos/
+detailViewIconSize=16

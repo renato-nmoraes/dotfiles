@@ -1,0 +1,5 @@
+[Event/notification]
+Action=Sound
+Execute=
+Logfile=
+TTS=

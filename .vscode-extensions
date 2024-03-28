@@ -21,4 +21,5 @@ platformio.platformio-ide
 redhat.vscode-yaml
 Tim-Koehler.helm-intellisense
 timonwong.shellcheck
+waderyan.gitblame
 yzane.markdown-pdf

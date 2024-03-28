@@ -1,0 +1,14 @@
+[Default][Terraform Plan]
+command=./run.sh -u ea4a8944-526e-f58a-321a-2f98b5fb6c2e -p a009b7c2-c9df-44fc-6e50-9604240e363b -f environments/internal.tfvars
+name=Terraform Plan
+tooltip=terraform-plan
+
+[Default][Warp Connect]
+command=warp-cli connect
+name=Warp Connect
+tooltip=warp-connect
+
+[Default][Warp Disconnect]
+command=warp-cli disconnect
+name=Warp Disconnect
+tooltip=warp-disconnect

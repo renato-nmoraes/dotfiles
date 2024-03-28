@@ -1,6 +1,7 @@
 " Ref: https://stackoverflow.com/questions/5845557/in-a-vimrc-is-set-nocompatible-completely-useless
 
 set nocompatible
+set number
 packloadall "used for prettier
 
 let mapleader=" "
@@ -13,6 +14,8 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'junegunn/fzf.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'tpope/vim-sleuth'
+    Plug 'towolf/vim-helm'
+    Plug 'neovim/nvim-lspconfig'
 
     " Git plugin
     Plug 'tpope/vim-fugitive'
@@ -36,6 +39,9 @@ call plug#begin(stdpath('data') . '/plugged')
     " Theme
     Plug 'rainglow/vim'
     Plug 'morhetz/gruvbox'
+
+    " Codeium
+    Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 call plug#end()
 
 let g:ale_fix_on_save = 1
@@ -65,6 +71,14 @@ nnoremap <silent> <C-p> :FZF -m<CR>
 " Map a few common things to do with FZF.
 nnoremap <silent> <Leader><Enter> :Buffers<CR>
 nnoremap <silent> <Leader>l :Lines<CR>
+
+let g:fzf_preview_window = ['right:50%', 'ctrl-_']
+command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, $AG_DEFAULT_OPTIONS, fzf#vim#with_preview(), <bang>0)
+
+" .............................................................................
+" the_silver_searcher - Ag
+" .............................................................................
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " .............................................................................
 " lambdalisue/fern.vim
@@ -112,3 +126,5 @@ nmap <buffer> <Plug>(fern-my-leave-and-tcd)
       \ <Plug>(fern-wait)
       \ <Plug>(fern-action-tcd:root)
 
+" Codeium config
+imap <script><silent><nowait><expr> <C-t> codeium#Accept()
