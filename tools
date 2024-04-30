@@ -42,3 +42,17 @@ org.telegram.desktop
 
 # Screen Recorder
 sudo apt-get install kazam
+
+configure_audio() {
+  # Audio
+  #https://wiki.debian.org/PipeWire - Procurar por "Debian 12"
+  sudo apt install wireplumber pipewire-media-session- -y
+  sudo apt install pipewire-audio
+  cp -r /usr/share/pipewire ~/.config/pipewire
+  sed -i -E 's/#?(default.clock.rate\s*=\s+).*/\196000/' ~/.config/pipewire/pipewire.conf
+  sed -i -E 's/#?(default.clock.allowed-rates\s*=\s*).*/\1[ 48000 88200 96000 176400 192000 ]/' ~/.config/pipewire/pipewire.conf
+  #  cat /proc/asound/Audio/stream0
+  #  cat /proc/asound/Audio/pcm0p/sub0/hw_params
+}
+
+configure_audio
