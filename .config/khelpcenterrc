@@ -2,9 +2,14 @@
 AutomaticDetectionLanguage=1
 
 [MainWindow]
+2 screens: Height=600
+2 screens: Width=800
+2 screens: XPosition=3120
+2 screens: YPosition=588
 2560x1440 screen: XPosition=880
 2560x1440 screen: YPosition=408
 DP-1=DP-1
+DP-1-1-1 DP-1-2-1=DP-1-1-1
 State=AAAA/wAAAAD9AAAAAAAAAyAAAAH1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 

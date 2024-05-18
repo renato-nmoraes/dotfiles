@@ -20,8 +20,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][53][ConfigDialog]
-DialogHeight=1372
-DialogWidth=2560
+DialogHeight=1132
+DialogWidth=1920
 
 [Containments][54]
 activityId=
@@ -60,7 +60,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://browser,applications:org.kde.konsole.desktop,applications:slack.desktop
+launchers=preferred://browser,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,applications:slack.desktop
 
 [Containments][54][Applets][58]
 immutability=1
@@ -141,7 +141,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][60][Applets][68][Configuration]
-PreloadWeight=55
+PreloadWeight=95
 
 [Containments][60][Applets][69]
 immutability=1
@@ -173,7 +173,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][60][Applets][75][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][60][Applets][76]
 immutability=1
@@ -237,4 +237,4 @@ wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,1af7fc80-125e-4aa3-a1b3-a28454901bad
+screenMapping=desktop:/IRPF2024.desktop,0,1af7fc80-125e-4aa3-a1b3-a28454901bad,desktop:/steam.desktop,0,1af7fc80-125e-4aa3-a1b3-a28454901bad,desktop:/brave-emefpkhgihlhfddcjfghpndaeliajgjj-Default.desktop,0,1af7fc80-125e-4aa3-a1b3-a28454901bad

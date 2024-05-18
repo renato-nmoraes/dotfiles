@@ -1,23 +1,51 @@
-[file:///home/renato/Downloads/rustup-init.sh]
+[file:///home/renato/Downloads/IRPF2024Linux-x86_64v1.1.0.1.sh.bin]
 Bookmarks=
-Checksum=ddc99f24720ae513c3209483ebfe11f7461b2eaf
-Encoding=UTF-8
+Checksum=5b6540a566e6518b3d5a686f6b6701486e7cff37
+Encoding=ISO-8859-15
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2024,2,27,18,36,42.311
-URL=file:///home/renato/Downloads/rustup-init.sh
+Time=2024,5,9,18,46,1.992
+URL=file:///home/renato/Downloads/IRPF2024Linux-x86_64v1.1.0.1.sh.bin
 
-[file:///home/renato/pg_stat_activity_202403251512.json]
+[file:///home/renato/Downloads/ServiceTags_Public_20240506.json]
 Bookmarks=
-Checksum=e6fd246e923a5f31fe3df370e2e9af9153c55277
+Checksum=c6579e81f79832a5b56545bbd4cab63b65026be3
 Encoding=UTF-8
 Highlighting=JSON
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=JSON
 Mode Set By User=false
-Time=2024,3,25,18,12,13.453
-URL=file:///home/renato/pg_stat_activity_202403251512.json
+Time=2024,5,10,21,31,41.297
+URL=file:///home/renato/Downloads/ServiceTags_Public_20240506.json
+
+[file:///tmp/glpi-logs/access-errors.log]
+Checksum=cb3d851749309dc4ec072a6e46556ec14ce2e439
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/cron.log]
+Checksum=74d2a4c38e6fff1d4c056a2d870e6e6b1d4572d7
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/event.log]
+Checksum=e94e34f19d0f403b3107f67a6011a7e2b02d8a0c
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/mail.log]
+Checksum=16507a8860b1a43a0c9dcad001eff46087614428
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/php-errors.log]
+Checksum=ac1e38fbc9abf64b9573e9bdc03bb9e260442fe2
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/sql-errors.log]
+Checksum=90866a9d6891eee6e16b1421e394b46217c08677
+Time=2024,5,15,13,37,52.927
+
+[file:///tmp/glpi-logs/webhook.log]
+Checksum=1d8efcbac322ebbafb683e47c3acc96933f438d3
+Time=2024,5,15,13,37,52.927

@@ -1,3 +1,6 @@
+[Applications][brave-browser]
+Seen=true
+
 [Applications][com.brave.Browser]
 Seen=true
 
@@ -25,8 +28,11 @@ Seen=true
 [Applications][slack]
 Seen=true
 
+[Applications][solaar]
+Seen=true
+
 [Applications][tidal-hifi]
 Seen=true
 
 [DoNotDisturb]
-Until=2024,2,9,13,51,0.599
+Until=2024,4,22,12,32,0.405

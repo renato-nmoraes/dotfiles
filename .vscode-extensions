@@ -1,4 +1,4 @@
-Codeium.codeium
+codeium.codeium
 esbenp.prettier-vscode
 exiasr.hadolint
 fengtan.ldap-explorer
@@ -15,11 +15,12 @@ ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
 ms-vscode.cpptools
+ms-vscode.powershell
 ms-vscode.sublime-keybindings
 oderwat.indent-rainbow
 platformio.platformio-ide
 redhat.vscode-yaml
-Tim-Koehler.helm-intellisense
+tim-koehler.helm-intellisense
 timonwong.shellcheck
 waderyan.gitblame
 yzane.markdown-pdf

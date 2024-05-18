@@ -102,7 +102,7 @@ DirSelectDialog Size=640,480
 History Items[$e]=file:$HOME/Downloads,file:$HOME/Downloads/sd,file:///1.git-repos/clovis
 
 [General]
-BrowserApplication=com.brave.Browser.desktop
+BrowserApplication=brave-browser.desktop
 ColorSchemeHash=9576ef87a0de1931c50aeb1831060260aa545ee6
 
 [KDE]
@@ -121,15 +121,15 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=144
 View Style=DetailTree
 
 [KScreen]
-ScreenScaleFactors=eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;DP-1-1=1;DP-1-2=1;DP-1-3=1;
+ScreenScaleFactors=eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;DP-1-1=1;DP-1-1-1=1;DP-1-2=1;DP-1-2-1=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
