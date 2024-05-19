@@ -7,7 +7,7 @@ packloadall "used for prettier
 let mapleader=" "
 let maplocalleader=" "
 
-# Autoinstall plug.vim
+" Autoinstall plug.vim
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
