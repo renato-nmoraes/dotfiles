@@ -59,3 +59,5 @@ configure_audio() {
 }
 
 configure_audio
+
+#qpdf --flatten-annotations=all BRADESCO\ -\ Preenchido\ assinado.pdf flatten-signed-file.pdf

@@ -151,3 +151,8 @@ export PROMPT_DIRTRIM=4
 export ANSIBLE_STDOUT_CALLBACK=default
 export ANSIBLE_DISPLAY_SKIPPED_HOSTS=False
 export PROMPT_COMMAND='history -a'
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+shopt -s histappend
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+source <(kubectl completion bash)
