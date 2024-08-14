@@ -3,6 +3,9 @@ sudo add-apt-repository ppa:daniel-milde/gdu
 sudo apt-get update
 sudo apt-get install gdu 
 
+# Task switcher
+sudo apt-get install kwin-addons
+
 # Install config touchpad
 sudo apt install xserver-xorg-input-synaptics
 
