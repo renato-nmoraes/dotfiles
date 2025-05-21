@@ -46,6 +46,9 @@ com.emqx.MQTTX
 ## Telegram
 org.telegram.desktop
 
+#Newsflash RSS
+flatpak install flathub io.gitlab.news_flash.NewsFlash
+
 # Screen Recorder
 sudo apt-get install kazam
 
